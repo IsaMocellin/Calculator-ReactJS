@@ -1,0 +1,54 @@
+:root{
+    --laranja: #FF9500;
+    --cinza-claro: #D4D4D2;
+    --cinza-escuro: #505050;
+    --preto: #1C1C1C;
+}
+
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: .3em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+button{
+    background-color: var(--cinza-escuro);
+    color: var(--cinza-claro);
+}
+
+.wrapper button:nth-child(5), .wrapper button:nth-child(6), .wrapper button:nth-child(7){
+    background-color: var(--cinza-claro);
+    color: var(--preto);
+}
+
+button:nth-child(4), button:nth-child(8), button:nth-child(12), button:nth-child(16), button:nth-child(20), button:nth-child(23){
+    background-color: var(--laranja);
+    color: var(--cinza-claro);
+}
+
+.wrapper button:nth-child(21){
+    width: 6.5em;
+    text-align: start;
+    padding: 0 1.25em;
+}
+
+.result{
+    display: flex;
+    justify-content: end;
+    margin-right: 1em;
+    color: var(--cinza-claro);
+    font-size: 3.5em;
+}

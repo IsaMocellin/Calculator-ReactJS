@@ -16,7 +16,7 @@ Este é um projeto de calculadora desenvolvido utilizando React JS. Permite real
 1. Clone este repositório em sua máquina local:
 
 ```
-git clone https://github.com/seu-usuario/calculadora-react.git
+git clone https://github.com/IsaMocellin/Calculator-ReactJS.git
 ```
 
 2. Navegue até o diretório do projeto:
